@@ -31,6 +31,7 @@ const astroErrorModulePath = normalizePath(
 	fileURLToPath(new URL('../core/errors/index.js', import.meta.url))
 );
 
+// BOOKMARK BRAD: here's the markdown guts
 export default function markdown({ settings, logger }: AstroPluginOptions): Plugin {
 	let processor: MarkdownProcessor | undefined;
 
